@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4609eab8-5a35-47d0-8c54-b4325b45aae3</ProjectGuid>
+    <ProjectGuid>b4f6dcfd-97ad-4abb-b84d-ba4b96348121</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>netwindows</RootNamespace>
-    <AssemblyName>netwindows</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>vscode</RootNamespace>
+    <AssemblyName>vscode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
-    <Name>netwindows</Name>
+    <Name>vscode</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,7 +42,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="netwindows.fs" />
+    <Compile Include="vscode.fs" />
     <None Include="App.config" />
   </ItemGroup>
   <PropertyGroup>

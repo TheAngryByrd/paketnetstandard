@@ -1,4 +1,4 @@
-module netwindows
+module vscode
 
 [<EntryPoint>]
 let main argv =
